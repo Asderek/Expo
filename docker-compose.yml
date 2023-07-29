@@ -5,4 +5,4 @@ services:
   linux-env:
     container_name: docker-tormenta-env
     build: .
-    command: tail -f 
+    command: [ "sleep", "infinity" ]
