@@ -1,0 +1,8 @@
+version: '3.3'
+name: docker-tormenta
+
+services:
+  linux-env:
+    container_name: docker-tormenta-env
+    build: .
+    command: tail -f 
