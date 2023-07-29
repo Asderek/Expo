@@ -1,6 +1,6 @@
 Navigate with command line and use 
 
-```docker compose up -d```
+```docker compose up -d  --build```
 
 to start the container as a service in your machine. 
 
