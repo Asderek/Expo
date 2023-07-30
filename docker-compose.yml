@@ -6,3 +6,8 @@ services:
     container_name: docker-tormenta-env
     build: .
     command: [ "sleep", "infinity" ]
+    volumes:
+      - ./projects:/opt/projects
+    ports:
+      - 19000:19000
+      - 19006:19006
