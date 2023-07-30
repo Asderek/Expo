@@ -35,7 +35,5 @@ RUN npm install -g npm@9.8.1
 # install global eas-cli
 RUN npm install -g eas-cli
 
-COPY projects /opt/projects
-
 # to keep the container up
 CMD ["sleep", "infinity"]
