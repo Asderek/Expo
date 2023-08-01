@@ -3,18 +3,18 @@ import { View, TouchableOpacity, Image, Text,  StyleSheet, ScrollView } from 're
 import { useRouter } from 'expo-router';
 
 const characterClasses = [
-  { name: 'Inventor', screen: '/InventorMain', image: require('../assets/a.png') },
-  { name: 'Bard', screen: '/BardMain', image: require('../assets/b.png') },
-  { name: 'Mage', screen: '/BardMain', image: require('../assets/c.png') },
-  { name: 'Cleric', screen: '/BardMain', image: require('../assets/d.png') },
-  { name: 'Barbarian', screen: '/BardMain', image: require('../assets/a1.png') },
-  { name: 'Druid', screen: '/BardMain', image: require('../assets/b1.png') },
-  { name: 'Hunter', screen: '/BardMain', image: require('../assets/c1.png') },
-  { name: 'Knight', screen: '/BardMain', image: require('../assets/d1.png') },
-  { name: 'Rogue', screen: '/BardMain', image: require('../assets/a2.png') },
-  { name: 'Swashbuckler', screen: '/BardMain', image: require('../assets/b2.png') },
-  { name: 'Noble', screen: '/BardMain', image: require('../assets/c2.png') },
-  { name: 'Fighter', screen: '/BardMain', image: require('../assets/d2.png') },
+  { name: 'Inventor', screen: '/InventorMain', image: require('../assets/inventor/thumbnail.png') },
+  { name: 'Bard', screen: '/BardMain', image: require('../assets/bard/thumbnail.png') },
+  { name: 'Mage', screen: '/BardMain', image: require('../assets/mage/thumbnail.png') },
+  { name: 'Cleric', screen: '/BardMain', image: require('../assets/cleric/thumbnail.png') },
+  { name: 'Barbarian', screen: '/BardMain', image: require('../assets/barbarian/thumbnail.png') },
+  { name: 'Druid', screen: '/BardMain', image: require('../assets/druid/thumbnail.png') },
+  { name: 'Hunter', screen: '/BardMain', image: require('../assets/hunter/thumbnail.png') },
+  { name: 'Knight', screen: '/BardMain', image: require('../assets/knight/thumbnail.png') },
+  { name: 'Rogue', screen: '/BardMain', image: require('../assets/rogue/thumbnail.png') },
+  { name: 'Swashbuckler', screen: '/BardMain', image: require('../assets/swash/thumbnail.png') },
+  { name: 'Noble', screen: '/BardMain', image: require('../assets/noble/thumbnail.png') },
+  { name: 'Fighter', screen: '/BardMain', image: require('../assets/fighter/thumbnail.png') },
   // Add more character classes here...
 ];
 
